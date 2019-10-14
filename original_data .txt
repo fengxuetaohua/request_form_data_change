@@ -1,0 +1,13 @@
+advanceDiscount: 0
+depart: Denver
+departDate: 10/15/2019
+arrive: Denver
+returnDate: 10/16/2019
+numPassengers: 1
+seatPref: None
+seatType: Coach
+findFlights.x: 58
+findFlights.y: 4
+.cgifields: roundtrip
+.cgifields: seatType
+.cgifields: seatPref
