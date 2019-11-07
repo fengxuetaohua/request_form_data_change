@@ -12,17 +12,4 @@ returnDate: 10/16/2019
 "Name=departDate", "Value= 10/15/2019", ENDITEM,
 "Name=arrive", "Value= Denver", ENDITEM,
 "Name=returnDate", "Value= 10/16/2019", ENDITEM,
-因此，可将上述result_data.txt文件内容直接粘贴到web_submit_data()函数中需要的位置处，如下：
-web_submit_data("web_submit_data",
-		"Action=http://127.0.0.1:1080/WebTours/reservations.pl",
-		"Method=POST",
-		"TargetFrame=",
-		"Referer=",
-		"Mode=HTML",
-		ITEMDATA,
-		"Name=advanceDiscount", "Value= 0", ENDITEM,
-		"Name=depart", "Value= Denver", ENDITEM,
-		"Name=departDate", "Value= 10/15/2019", ENDITEM,
-		"Name=arrive", "Value= Denver", ENDITEM,
-		"Name=returnDate", "Value= 10/16/2019", ENDITEM,
-		LAST);
+因此，可将上述result_data.txt文件内容直接粘贴到web_submit_data()函数中需要的位置处。
